@@ -9,7 +9,7 @@ import org.slf4j.Logger;
 @SpringBootApplication
 public class SpringJenkinsApplication {
 
-//	private static final Logger logger = LoggerFactory.getLogger(SpringJenkinsApplication.class);
+	private static final Logger logger = LoggerFactory.getLogger(SpringJenkinsApplication.class);
 
 	@PostConstruct
 	public void init() {
